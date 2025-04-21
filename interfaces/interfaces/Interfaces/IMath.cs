@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace interfaces.Interfaces
 {
-    public interface IMath
+    public interface IMath 
     {
         int Add(int a, int b);
         int Subtract(int a, int b);

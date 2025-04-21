@@ -17,3 +17,8 @@ saySomething3.SayAnything("World4");
 IMath math = new SayMath();
 int result = math.Add(5, 10);
 Console.WriteLine($"Addition Result: {result}");
+
+NextLevel fucns = new SayNext();
+fucns.PrintMessage("Hello, World!", 3);
+var GenerateFibonacci = fucns.GenerateFibonacci(10);
+Console.WriteLine("Fibonacci Numbers: " + string.Join(", ", GenerateFibonacci));
